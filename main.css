@@ -1,8 +1,18 @@
-h1,h2 {
-  font-family:'Lobster';
+body {
+  font-family: 'Roboto', sans-serif; /* Apply the font to the entire body */
+  margin: 50px;
+  font-size: 16px;
+  line-height: 1.5;
 }
-li {
-  font-family:'Francois One';
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif; /* Apply the font to all headings */
+  font-weight: 700; /* Bold weight for headings */
+}
+
+p, ul, li, ol {
+  font-family: 'Roboto', sans-serif; /* Apply the font to paragraphs and lists */
+  font-weight: 400; /* Regular weight for text */
 }
 img {
   height:200px;
