@@ -3,6 +3,10 @@ body {
   margin: 50px;
   font-size: 16px;
   line-height: 1.5;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,0.08), transparent 20%),
+    radial-gradient(circle at 80% 90%, rgba(255,255,255,0.06), transparent 25%),
+    linear-gradient(135deg, #3ab8ee, #354f7f, #416fb8);
 }
 
 h1, h2, h3 {
@@ -14,7 +18,119 @@ p, ul, li, ol {
   font-family: 'Roboto', sans-serif; /* Apply the font to paragraphs and lists */
   font-weight: 400; /* Regular weight for text */
 }
-img {
+/* img {
   height:200px;
   border-radius: 180px;
+} */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.profile-photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+.project-folders{
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;   /* or center */
+}
+
+.folder-card{
+  display: flex;
+  flex-direction: column;    /* stack icon then text */
+  align-items: center;       /* center the text under icon */
+  text-decoration: none;
+  color: inherit;
+/* }
+.folder-card { */
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  will-change: transform;
+/* }
+.folder-card { */
+  opacity: 0;
+  transform: translateY(10px);
+  animation: FadeUp 450ms ease-out both;
+  animation-delay: var(--delay, 0ms);
+}
+
+.folder-card:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+
+.folder-card:active {
+  transform: translateY(-5px) scale(2.0);
+}
+
+.folder-card img{
+  width: 90px;               /* whatever you want */
+  height: auto;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+
+.folder-card span{
+  display: block;            /* ensures it sits on its own line */
+  text-align: center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-video {
+  width: 75%;
+  max-height: 70vh;      /* cap vertical size */
+  height: auto;
+  object-fit: contain;  /* no cropping */
+  background: black;    /* nice letterboxing */
+  border-radius: 15px;  /* optional polish */
+}
+
+@keyframes FadeUp {
+  from { opacity: 0; transform: translateY(-200px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: FadeUp 800ms ease-out both;
+}
+
+/* section reveal (used for demo/slides/report) */
+.reveal-section {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: FadeUp 450ms ease-out both;
+  animation-delay: var(--delay, 0ms);
+}
+
+/* respect reduced motion */
+/* @media (prefers-reduced-motion: reduce) {
+  .page-enter,
+  .reveal-section {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+} */
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 16px;
+  padding: 24px;
+  margin: 28px 0;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }

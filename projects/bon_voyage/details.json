@@ -1,0 +1,14 @@
+{
+  "title": "Bon Voyage Game",
+  "overview": "Bon Voyage is 2.5D (isometric view) story based exploration game created by team Memory Leak using our custom VI Engine. My contributions include developing the Enemy AI, Weather AI, Interactive Tutorial, Audio and Animations using lerp",
+  "tech": [
+    "C++",
+    "C#",
+    "Game Development",
+    "AI Agents",
+    "FMOD",
+    "Game Audio",
+    "Animation (lerp)",
+    "2D Gameplay Systems"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Mobile Space Shooter Game",
+  "overview": "Fly Melany Home is an Android space shooter game developed using the Android SDK. As Project Lead, I was responsible for core gameplay systems including player movement, game object data structures, scoring mechanics, player power-ups, and dynamic weapon switching. The project focuses on responsive gyro controls, structured game logic and scalable systems to support additional gameplay features.",
+  "tech": [
+    "Kotlin",
+    "Android SDK",
+    "Android Studio",
+    "Mobile Game Development",
+    "Game Object Data Structures",
+    "Mobile UI/UX",
+    "Gyro Input Handling"
+  ]
+}

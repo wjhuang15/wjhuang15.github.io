@@ -1,0 +1,16 @@
+{
+  "title": "Machine Learning Image Classifier",
+  "overview": "A Python-based image classification system with a GUI for real-time inference. It is developed with a modular architecture to support training, evaluation, and comparison of multiple models. As Project Lead, I designed the overall application architecture, implemented three machine learning model classes (Random Forest Classifier, Support Vector Machine, and K-Nearest Neighbours), handled model serialisation and developed data preprocessing pipelines. The project also includes automation tools for model optimisation and hyperparameter tuning to streamline experimentation and improve model performance.",
+  "tech": [
+    "Python",
+    "Scikit-Learn",
+    "Machine Learning",
+    "Random Forest Classifier",
+    "Support Vector Machine",
+    "K-Nearest Neighbours",
+    "Model Serialisation",
+    "Data Pre-processing",
+    "Hyperparameter Tuning",
+    "Automation & Model Optimisation"
+  ]
+}

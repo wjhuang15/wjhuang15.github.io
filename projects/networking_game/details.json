@@ -1,0 +1,12 @@
+{
+  "title": "Networking Game",
+  "overview": "Type Melany Home is a real-time multiplayer networking game built using our VI custom Engine. The project focuses on client–server communication, reliable data exchange, and responsive gameplay synchronisation. As Project Lead, I designed and implemented the networking architecture, handled connection management, data packet transmission, player movement synchronisation, and developed the player selection user interface.",
+  "tech": [
+    "C++",
+    "Multiplayer Networking",
+    "Client–Server Architecture",
+    "Data Packet Transmission",
+    "Real-Time Synchronisation",
+    "Game UI Development"
+  ]
+}

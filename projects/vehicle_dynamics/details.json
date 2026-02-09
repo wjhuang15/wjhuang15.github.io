@@ -1,0 +1,12 @@
+{
+  "title": "Vehicle Dynamics Simulation",
+  "overview": "A real-time vehicle dynamics simulation system designed to model longitudinal and lateral vehicle behavior for autonomous driving research. The project focuses on accurately simulating throttle, braking, and steering responses using physics-based models, enabling reliable testing of planning and control algorithms without reliance on commercial simulators.",
+  "tech": [
+    "C++",
+    "Python",
+    "ROS2",
+    "Vehicle Dynamics Modeling",
+    "Kinematic & Dynamic Bicycle Models",
+    "Simulation & Control Systems"
+  ]
+}

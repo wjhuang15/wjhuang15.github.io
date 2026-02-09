@@ -1,0 +1,11 @@
+{
+  "title": "Cloud Application",
+  "overview": "CoSnap aims to provide a solution to the challenge of sharing and managing photos among different users. By utilizing a cloud-based architecture, the application ensures that users can access their shared photos from anywhere, at any time.",
+  "tech": [
+    "Web Application",
+    "AWS",
+    "PostgreSQL",
+    "React.js",
+    "Node.js"
+  ]
+}
